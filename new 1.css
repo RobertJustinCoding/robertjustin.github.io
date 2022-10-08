@@ -1,0 +1,14 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	background-image: url('backgrounddd.png');
+}
+.header{
+	background: #0E08C7;
+	text-align: center;
+	font-family: Times New Roman;
+}
