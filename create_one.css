@@ -1,0 +1,403 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+body{
+	background-image: url('librarya.jpg');
+	background-size: cover;
+}
+.header img{
+	background-color: #F0E4CE;
+	position: absolute;
+	margin-top: 4px;
+	margin-left: 10px;
+}
+.navbar{
+	width: 100%;
+	background: #F0E4CE;
+	overflow: auto;
+}
+.navbar2{
+	padding: 0px;
+	margin: 0 0 0 75px;
+	list-style: none;
+}
+.navbar3{
+	float: right;
+	font-size: 20px;
+	padding-top: 20px;
+}
+.navbar h1{
+	margin: 0;
+	display: block;
+	float: left;
+	font-size: 36px;
+	padding: 8px;
+}
+.navbar a{
+	width: 200px;
+	display: block;
+	text-decoration: none;
+	font-family: Arial;
+	color: black;
+	text-align: center;
+}
+.navbar a:hover{
+	transition: 0.5s;
+	color: orange;
+	font-weight: bold;
+}
+
+section{
+	background-image: url('scrollres.png');
+	height: 100px;
+	max-width: 200px;
+	margin: auto;
+}
+section .create1{
+	padding-top:34px;
+	padding-left: 42px;
+}
+.create2{	
+	float: left;
+	position: relative;
+	background-color: #CAFAF2;
+	width: 700px;
+	height: 500px;
+	font-family: "Times New Roman", Times, serif;
+	left: 28px;
+	top: 20px;
+}
+.create2 ul li{
+	position: absolute;
+}
+.create2 ul li div{
+	font-size: 24px;
+}
+.create2 ul li .name3{
+	position: relative;
+}
+.create2 ul li #applynow{
+	width: 700px;
+	background: red;
+	text-align: center;
+	font-size: 50px;
+	font-family: "Georgia", serif;
+}
+.create2 ul li img{
+	position: relative;
+	width: 35px;
+	height: 35px;
+	margin-left: 170px;
+	margin-top: 11px;
+	z-index: 1;
+}
+.create2 ul li .name3{
+	margin-top: 70px;
+}
+.create2 ul li .name3 label{
+	float: left;
+	position: absolute;
+	margin-top: 12px;
+	margin-left: 26px;
+}
+form{
+	margin-left: 0px;
+	position: relative;
+	display: inline-block;
+	font-size: 20px;
+	transition: .5s;
+}
+input[name = "typehere1"]{
+	font-size: 20px;
+	background-color: white;
+	width: 550px;
+	height: 50px;
+	border: none;
+	outline: none;
+	padding: 0 10px;
+	margin-left: 120px; 
+	border: 1px solid gray;
+}	
+.create2 ul li .name4{
+	margin-top: 5px;
+}
+.create2 ul li .name4 label{
+	float: left;
+	position: absolute;
+	margin-top: 12px;
+	margin-left: 38px;
+}
+input[name = "typehere2"]{
+	font-size: 20px;
+	background-color: white;
+	width: 550px;
+	height: 50px;
+	border: none;
+	outline: none;
+	padding: 0 10px;
+	margin-left: 120px; 
+	border: 1px solid gray;
+}	
+.create2 ul li .name5{
+	margin-top: 5px;
+}
+.create2 ul li .name5 label{
+	float: left;
+	position: absolute;
+	margin-top: 12px;
+	margin-left: 36px;
+}
+input[name = "typehere3"]{
+	font-size: 20px;
+	background-color: white;
+	width: 550px;
+	height: 50px;
+	border: none;
+	outline: none;
+	padding: 0 10px;
+	margin-left: 120px; 
+	border: 1px solid gray;
+}	
+}
+.create2 ul li .name6{
+	margin-top: 5px;
+}
+.create2 ul li .name6 label{
+	float: left;
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+input[name = "typehere4"]{
+	font-size: 20px;
+	background-color: white;
+	width: 550px;
+	height: 50px;
+	border: none;
+	outline: none;
+	padding: 0 10px;
+	margin-left: 120px; 
+	margin-top: 5px;
+	border: 1px solid gray;
+}	
+}
+.create2 ul li .name7{
+	margin-top: 15px;
+}
+.create2 ul li .name7 label{
+	float: left;
+	position: absolute;
+	margin-top: 17px;
+	margin-left: 28px;
+}
+input[name = "typehere5"]{
+	font-size: 20px;
+	background-color: white;
+	width: 550px;
+	height: 50px;
+	border: none;
+	outline: none;
+	padding: 0 10px;
+	margin-left: 120px; 
+	border: 1px solid gray;
+	margin-top: 5px;
+}
+.create2 ul li .name8{
+	margin-top: 0px;
+}
+.create2 ul li .name8 label{
+	float: left;
+	position: absolute;
+	margin-top: 19px;
+	margin-left: 11px;
+}
+input[name = "typehere6"]{
+	font-size: 20px;
+	background-color: white;
+	width: 550px;
+	height: 50px;
+	border: none;
+	outline: none;
+	padding: 0 10px;
+	margin-left: 120px;
+	border: 1px solid gray;
+	margin-top: 5px;
+}
+input[name = "value"]{
+	font-size: 20px;
+	position: absolute;
+	margin-left: 300px;
+	width: 100px;
+	height: 50px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background: orange;
+	color: white;
+	overflow: hidden;
+	border: 1px solid gray;
+}
+
+input[type = "submit"]:hover{
+	transition: 0.5s;
+	background: red;
+}
+input[name = "value1"]{
+	font-size: 20px;
+	position: absolute;
+	margin-left: 285px;
+	margin-top: 60px;
+	width: 100px;
+	height: 50px;
+	outline: none;
+	cursor: pointer;
+	background: orange;
+	color: white;
+	overflow: hidden;
+	border: 1px solid gray;
+}
+.apply1{	
+	float: right;
+	position: relative;
+	background-color: #CAFAF2;
+	width: 700px;
+	height: 500px;
+	font-family: "Times New Roman", Times, serif;
+	right: 28px;
+	top: 20px;
+}
+.apply1 ul li{
+	position: absolute;
+}
+.apply1 ul li div{
+	font-size: 24px;
+}
+.apply1 ul li .name3{
+	position: relative;
+}
+.apply1 ul li #joinnow{
+	width: 700px;
+	background: red;
+	text-align: center;
+	font-size: 50px;
+	font-family: "Georgia", serif;
+}
+.apply1 ul li img{
+	position: relative;
+	width: 35px;
+	height: 35px;
+	margin-left: 170px;
+	margin-top: 11px;
+	z-index: 1;
+}
+.apply1 ul li .name3{
+	margin-top: 70px;
+}
+.apply1 ul li .name3 label{
+	float: left;
+	position: absolute;
+	margin-top: 12px;
+	margin-left: 26px;
+}
+.apply1 ul li .name4{
+	margin-top: 4px;
+}
+.apply1 ul li .name4 label{
+	float: left;
+	position: absolute;
+	margin-top: 12px;
+	margin-left: 38px;
+}
+.apply1 ul li .name5{
+	margin-top: -13.5px;
+}
+.apply1 ul li .name5 label{
+	float: left;
+	position: absolute;
+	margin-top: 12px;
+	margin-left: 36px;
+}
+.apply1 ul li .name6{
+	margin-top: 0px;
+}
+.apply1 ul li .name6 label{
+	float: left;
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+.apply1 ul li .name7{
+	margin-top: 0px;
+}
+.apply1 ul li .name7 label{
+	float: left;
+	position: absolute;
+	margin-top: 17px;
+	margin-left: 28px;
+}
+.apply1 ul li .name8{
+	margin-top: 0px;
+}
+.apply1 ul li .name8 label{
+	background-color: white;
+	height: 60px;
+	width: 250px;
+	position: absolute;
+	margin-top: 25px;
+	margin-left: 210px;
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Montserrat", sans-serif;
+	border: 1px solid gray;
+	border-style: dashed;
+	color: gray;
+}
+.h1-1{
+	font-family: "Brush Script MT", cursive;
+	width: 1320px;
+	padding-left: 400px;
+	margin-top: 520px;
+    text-shadow: 2px 2px 4px #FFFFFF;
+}
+.h1-2{
+	font-family: "Brush Script MT", cursive;
+	width: 1320px;
+	padding-left: 655px;
+	margin-top: -20px;
+    text-shadow: 2px 2px 4px #FFFFFF;
+}
+.h1-3{
+	font-family: "Brush Script MT", cursive;
+	margin-top: 150px;
+	margin-left: 130px;
+	z-index: -1;
+}
+.h1-4{
+	font-family: "Brush Script MT", cursive;
+	margin-left: 190px;
+	z-index: -1;
+}
+input[type = "file"]{
+	opacity: 0;
+	font-size: 20px;
+	position: absolute;
+	margin-left: 200px;
+	width: 250px;
+	height: 65px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background: orange;
+	color: white;
+	overflow: hidden;
+	border: 1px solid gray;
+	margin-top: -20px;
+	z-index: 0;
+}
+	

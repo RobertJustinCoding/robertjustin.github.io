@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+body{
+	background-image: url('librarya.jpg');
+	background-size: cover;
+}
+.header img{
+	background-color: #F0E4CE;
+	position: absolute;
+	margin-top: 4px;
+	margin-left: 10px;
+}
+.navbar{
+	width: 100%;
+	background: #F0E4CE;
+	overflow: auto;
+}
+.navbar2{
+	padding: 0px;
+	margin: 0 0 0 75px;
+	list-style: none;
+}
+.navbar3{
+	float: right;
+	font-size: 20px;
+	padding-top: 20px;
+}
+.navbar h1{
+	margin: 0;
+	display: block;
+	float: left;
+	font-size: 36px;
+	padding: 8px;
+}
+.navbar a{
+	width: 200px;
+	display: block;
+	text-decoration: none;
+	font-family: Arial;
+	color: black;
+	text-align: center;
+}
+.navbar a:hover{
+	transition: 0.5s;
+	color: orange;
+	font-weight: bold;
+}
+
+section{
+	background-image: url('scrollres.png');
+	height: 100px;
+	max-width: 200px;
+	margin: auto;
+}
+section .create1{
+	padding-top:34px;
+	padding-left: 46px;
+}
+.aboutme{
+	width:600px;
+	height: 740px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url('bookbackground2.jpg');
+	background-repeat: no-repeat;
+	position: relative;
+}
+.about ul li{
+	margin-top: 10px;
+}
+.aboutme ul .profilepic{
+	position: absolute;
+	margin-top: 10px;
+	display: block;
+	margin-left: 225px;
+	margin-right: auto;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.aboutme ul .medescription{
+	position: absolute;
+	text-align: center;
+	padding-left: 2px;
+	padding-right: 2px;
+	font-family: "Georgia", serif;
+	font-size: 25px;
+	margin-top: 160px;
+}
+.socote{
+	float: left;
+	margin-top: -640px;
+}
+.socote .penguinnn{
+	clear: left;
+	margin-left: 40px;
+	width: 350px;
+	height: 500px;
+	transform: rotate(-10deg);
+}
+.socote h1{
+	transform: rotate(-10deg);
+	margin-left: 45px;
+	font-size: 30px;
+    color: white;
+	text-shadow: 2px 2px 4px black;
+}
+.sofriendly{
+	float: right;
+	margin-top: -540px;
+}
+.sofriendly .friendsss{
+	transform: rotate(30deg);
+	clear: right;
+	width: 370px;
+	height: 270px;
+}
+.sofriendly h1{
+	transform: rotate(30deg);
+	margin-left: -35px;
+	margin-top: 15px;
+	font-size: 30px;
+    color: white;
+	text-shadow: 2px 2px 4px black;
+	
+	
